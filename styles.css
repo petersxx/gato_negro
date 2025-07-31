@@ -1,0 +1,267 @@
+
+
+*{margin: 0;
+    padding: 0;
+    border: 0;}
+.nav{
+    width: 100%;
+    height: 8vh ;
+    background: #fff;
+    display: flex;
+    z-index: 1000;
+    position: fixed;
+}
+.nvstart, .nvcenter, .nvend{
+    flex: 1; 
+    display: flex;
+    align-items: center;
+
+}
+.nvcenter{
+    justify-content: center;
+}
+.nvstart{
+    justify-content: start;
+    
+}
+.nvend{
+    justify-content: end;
+}
+
+.logo{
+    width: 16vh;
+    justify-content: center;
+}
+.inicio,.perfumes,.nosotros{
+    text-decoration: none;
+    color: #000;
+    font-size: 3vh;
+    font-family: "Bebas Neue", sans-serif;
+    padding-left: 3vh;
+}
+.search{
+    width: 4vh;
+    padding-right: 3vh;
+}
+.page{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.box {
+
+    z-index: 10; 
+    width: 100%;
+    height: 92vh;
+    background: #0009;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-top: 8vh;
+}
+.info{
+    z-index: 20;
+    width: 30%;
+    height: 60vh;
+    display: flex;
+    background: #0009;
+    position: relative;
+    margin-left: 8vh;
+    box-sizing: border-box;
+    border-radius: 10%;
+    justify-content: center;
+    align-items:center;
+}
+
+.info2{
+
+    height: 80%;
+    width: 80%;
+}
+.parrafo0{
+    margin-top: 4vh;
+}
+.boton0 {
+    width: 60%;
+    height: 15%;
+    margin: 6vh 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.Boton1 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-decoration: none;
+    font-size: 3vh;
+    color: #fff;
+    padding: 10px 20px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 2px solid white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.Boton1:hover {
+    background-color: white;
+    color: black;
+}
+/*footer*/
+.footer {
+display: flex;
+justify-content: space-around;
+background: #111;
+color: #eee;
+padding: 2rem;
+height: 15vh;
+}
+.footer-col h4, .footer-col h3 {
+margin-bottom: 1rem;
+font-size: 5vh;
+font-family: Inconsolata, monospace;
+}
+.footer-col ul {
+list-style: none;
+padding: 0;
+
+}
+.footer-col a {
+color: #5b5a5a;
+text-decoration: none;
+font-size: 2vh;
+}
+.footer-col a:hover {
+color: #fff;
+}
+.footer-col p{
+    font-size: 2vh;
+    color: #5b5a5a;
+}
+.footer-col p:hover{
+    color: #fff;
+}
+/*seccion perfumes hombre */
+.perfumehombre{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+
+}
+.imghombre{
+    width: 40%;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    margin: 10vh 0 10vh 20vh;
+
+}
+.imghombre img{
+    width: 100%;
+    height: 100%;
+}
+.h1perf{
+    width: 25%;
+    height: 85%;
+    background: #fff;
+    position: relative;
+    margin: 8vh 0 0 10vh ;
+    justify-content: start;
+
+}
+.boton2{
+    .Boton1 {
+    width: 50%;
+    height: 6vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2vh 0 0 0;
+    text-decoration: none;
+    font-size: 3vh;
+    color: #000;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 2px solid #000;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.Boton1:hover {
+    background-color: #000;
+    color: #fff;
+}
+}
+/*perfumes para mujer*/
+
+.perfumujer{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+
+}
+.imgmujer{
+    width: 40%;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    margin: 10vh 0 10vh 43vh;
+
+}
+.imgmujer img{
+    width: 100%;
+    height: 100%;
+}
+.h2perf{
+    width: 25%;
+    height: 85%;
+    background: #fff;
+    position: relative;
+    margin: 8vh 0 0 10vh ;
+    justify-content: start;
+    left: 30vh;
+
+}
+.boton3{
+    .Boton1 {
+    width: 50%;
+    height: 6vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2vh 0 0 0;
+    text-decoration: none;
+    font-size: 3vh;
+    color: #000;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 2px solid #000;
+    transition: background-color 0.3s ease, color 0.3s ease;}}
+
+.Boton1:hover {
+    background-color: #000;
+    color: #fff;
+}
+/*perfumes de hombre*/
+.boxx{
+    width: 100%;
+    height: 120vh;
+    background: #000;
+    display: flex;
+}

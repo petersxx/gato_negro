@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="/pics/gato.jpg" type="image/png">
+    <title>Perfumeria Gato Negro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+    const video1 = document.querySelector(".h1perf video");
+    const video2 = document.querySelector(".h2perf video");
+
+[video1, video2].forEach(video => {
+    video.addEventListener("mouseenter", () => {
+    video.style.transform = "scale(1.05)";
+    video.style.transition = "transform 0.3s ease";
+    });
+
+    video.addEventListener("mouseleave", () => {
+    video.style.transform = "scale(1)";
+    });
+});
+});
+</script>
+
+    <!--navbar-->
+    <section class="nav">
+        <div class="nvstart">
+            <a href="index.html" class="inicio">INICIO</a>
+            <a href="#" class="perfumes">PERFUMES</a>
+            <a href="#" class="nosotros">NOSOTROS</a>
+        </div>
+        <div class="nvcenter">  <img src="pics/gato negro logo.jpg" alt="" class="logo"></div>
+        <div class="nvend">
+            <a href="#"><img src="pics/Search Fill Streamline Outlined Fill - Material Pro" alt="" class="search"></a>
+        </div>
+        
+    </section>
+    
+    <!--primera seccion-->
+    <section class="page">
+        <video src="/pics/Yvid.mp4" autoplay loop muted class="back"></video>
+        <div class="box">
+            <div class="info">
+                <div class="info2">
+                    <h1 class="titulo1">
+                        <span style="font-size: 5vh; color: #fff; font-family: Bebas Neue, sans-serif;">NUEVO "Y" EAU DE PARFUM</span>
+                    </h1>
+                    <div class="parrafo0">
+                    <p class="parrafo1"><span style="font-size: 3vh; color: #fff;  font-family: Inconsolata, monospace;">
+                        Y Eau de Parfum es una fragancia masculina intensa y moderna de Yves Saint Laurent que rinde homenaje al hombre creativo, audaz y determinado. Inspirado en la clásica camisa blanca y la icónica chaqueta negra. </span>
+                    </p>
+                    </div>
+                    <div class="boton0">
+                    <a href="https://www.yslbeauty.es/iconos/best-sellers/y--eau-de-parfum/WW-50194YSL.html" class="Boton1"><span style=" font-family: Inconsolata, monospace;">¡Descubre más!</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--seccion hombre y mujer-->
+    <section class="perfumehombre">
+<div class="imghombre">
+    <img src="/pics/lemaleclassic.avif" alt="">
+</div>
+<div class="h1perf">
+    <h1><span style="font-family: Bebas Neue, sans-serif; font-size: 15vh;">perfumes para hombre</span></h1>
+    <video src="/pics/lemaleclasicc.webm" autoplay muted loop style="width: 30vh;"></video>
+    <div class="boton2">
+        <a href="perfumeshombre.html" class="Boton1"><span style=" font-family: Inconsolata, monospace;">¡ver!</span></a>
+</div>
+</div>
+</section>
+<!--seccion mujer-->
+    <section class="perfumujer">
+        <div class="h2perf">
+    <h1><span style="font-family: Bebas Neue, sans-serif; font-size: 15vh;">perfumes para mujer</span></h1>
+    <video src="/pics/labelle.webm" autoplay muted loop style="width: 30vh;"></video>
+    <div class="boton3">
+        <a href="perfumesmujer.html" class="Boton1"><span style=" font-family: Inconsolata, monospace;">¡ver!</span></a>
+</div>
+</div>
+
+<div class="imgmujer">
+    <img src="/pics/labbelle.avif" alt="">
+</div>
+</section>
+<!--FOOTER-->
+<footer class="footer">
+<div class="footer-col">
+    <h3>Gato Negro</h3>
+</div>
+<div class="footer-col">
+    <h4>Enlaces</h4>
+    <ul>
+    <li><a href="#">Tienda</a></li>
+    <li><a href="#">Nosotros</a></li>
+    <li><a href="#">Preguntas frecuentes</a></li>
+    </ul>
+</div>
+<div class="footer-col">
+    <h4>Contacto</h4>
+    <p>Email: contacto@gatonegro.com</p>
+    <p>Instagram: @gato.negro</p>
+</div>
+</footer>
+
+</body>
+</html>
