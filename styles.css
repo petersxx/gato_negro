@@ -1,5 +1,18 @@
 
 
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main, .boxx {
+    flex: 1; 
+}
+
+
+
 *{margin: 0;
     padding: 0;
     border: 0;}
@@ -124,12 +137,14 @@
 }
 /*footer*/
 .footer {
+
 display: flex;
 justify-content: space-around;
 background: #111;
 color: #eee;
 padding: 2rem;
 height: 15vh;
+z-index: 1000;
 }
 .footer-col h4, .footer-col h3 {
 margin-bottom: 1rem;
@@ -261,7 +276,21 @@ color: #fff;
 /*perfumes de hombre*/
 .boxx{
     width: 100%;
-    height: 120vh;
-    background: #000;
+    height: 100vh;
+    background: #fff;
     display: flex;
+    align-items: top;
+    justify-content: center;
+    z-index: 1;
+    
 }
+.perfumes {
+    list-style: none;   /* Quita las viñetas */
+    padding: 0;
+    margin: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap: 5vw;
+    z-index: 1;
+}
+
