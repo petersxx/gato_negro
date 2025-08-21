@@ -288,7 +288,7 @@ color: #fff;
 .perfumess {
     list-style: none;   
     padding: 0;
-    margin: 2rem auto;          /* centrado con margen más controlado */
+    margin: 10vh;        /* centrado con margen más controlado */
     max-width: 1200px;          /* límite para que no se estire de más */
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* 4 columnas iguales */
@@ -318,14 +318,17 @@ color: #fff;
 }
 
 .perfumess li h3 {
+    text-decoration: none;
     font-size: 1.2rem;          /* tamaño equilibrado */
     font-family: Inconsolata, monospace;
     font-weight: 400;
     margin-top: 0.8rem;
+    color: #000
 }
 
 .perfumess li p {
+    text-decoration: none;
     margin-top: 0.5rem;
     font-size: 1rem;
-    color: #333;
+    color: #000;
 }
