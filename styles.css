@@ -332,3 +332,9 @@ color: #fff;
     font-size: 1rem;
     color: #000;
 }
+.perfumess li a {
+    text-decoration: none;   /* saca el subrayado */
+    color: inherit;          /* mantiene el color del padre */
+    display: block;          /* hace que el enlace envuelva bien todo */
+}
+
