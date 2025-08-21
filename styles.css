@@ -288,20 +288,21 @@ color: #fff;
 .perfumess {
     list-style: none;   
     padding: 0;
-    margin: 10%;
+    margin: 2rem auto;          /* centrado con margen más controlado */
+    max-width: 1200px;          /* límite para que no se estire de más */
     display: grid;
-    grid-template-columns:1fr 1fr 1fr 1fr ;
-    gap: 1vw;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas iguales */
+    gap: 2rem;                  /* espacio más uniforme */
     z-index: 1;
-    
-    
 }  
-.perfumess li {
 
-    padding: 3vw;
+.perfumess li {
+    padding: 1rem;
     cursor: pointer;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* transición suave */
-    width: 10vw;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;         /* centra texto e imágenes */
+    border-radius: 12px;
+    background: #fff;           /* hace que quede tipo tarjeta */
 }
 
 .perfumess li:hover {
@@ -309,29 +310,22 @@ color: #fff;
     box-shadow: 0 8px 20px rgba(0,0,0,0.2); 
 }
 
-.perfumess li img {
-    width: 12vw;
-}
-.perfumess li video{
-    width: 12vw;
+.perfumess li img,
+.perfumess li video {
+    width: 100%;                /* ocupan todo el ancho de la tarjeta */
+    max-width: 200px;           /* no se hacen gigantes */
+    border-radius: 8px;
 }
 
 .perfumess li h3 {
-    font-size: 6rem;     
-    overflow: hidden;
+    font-size: 1.2rem;          /* tamaño equilibrado */
     font-family: Inconsolata, monospace;
     font-weight: 400;
+    margin-top: 0.8rem;
 }
-
 
 .perfumess li p {
-    margin-top: 2vh;
-    font-size: 6rem;
-}
-.perfumess li a {
-    display: block;
-    color: inherit;
-    text-decoration: none;
-    height: 100%;
-    width: 100%;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: #333;
 }
