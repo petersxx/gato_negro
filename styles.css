@@ -277,7 +277,7 @@ main, .boxx {
     .perfumehombre, .perfumujer{ flex-direction: column; height: auto; }
     .perfumehombre{padding-top: 15vh;}
     .imghombre, .imgmujer{ width: 90%; margin: 2rem auto; }
-    .h1perf, .h2perf{ width: 100%; margin: 2rem auto; left: 0 !important; }
+    .h1perf, .h2perf{ width: 50%; margin-left: 5vh; left: 0 !important; }
     .h1perf video, .h2perf video{ width: 80%; }
 
     .perfumess{ grid-template-columns: 1fr !important; margin: 2rem; padding-top: 15vh;}
